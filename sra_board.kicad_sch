@@ -18072,7 +18072,7 @@
 		)
 		(uuid "b6719d0c-f2db-4653-91ad-d8f5e1b054d6")
 	)
-	(label "IO0"
+	(label "0"
 		(at 161.544 104.902 0)
 		(effects
 			(font
