@@ -10713,7 +10713,7 @@
 	)
 	(rectangle
 		(start 115.824 19.812)
-		(end 179.324 75.692)
+		(end 184.15 75.692)
 		(stroke
 			(width 0)
 			(type default)
@@ -10725,7 +10725,7 @@
 	)
 	(rectangle
 		(start 13.716 13.462)
-		(end 183.388 112.014)
+		(end 185.42 112.014)
 		(stroke
 			(width 0)
 			(type default)
@@ -20729,7 +20729,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0402S"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0603S"
 			(at 61.214 148.082 0)
 			(hide yes)
 			(show_name no)
@@ -36880,7 +36880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0402S"
+		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0603S"
 			(at 148.844 156.972 0)
 			(hide yes)
 			(show_name no)
