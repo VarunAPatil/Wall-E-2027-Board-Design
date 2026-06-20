@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "easyeda2kicad") (type "KiCad") (uri "/home/varun/Documents/Kicad/easyeda2kicad/easyeda2kicad.pretty") (options "") (descr ""))
+	(lib (name "footprints") (type "KiCad") (uri "/home/varun/Wall-E-2027-Board-Design/footprints.pretty") (options "") (descr ""))
+)
