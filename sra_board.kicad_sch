@@ -18468,7 +18468,7 @@
 		)
 		(uuid "7a1d896d-bca7-49d8-b844-c1d477fad61f")
 	)
-	(label "5V"
+	(label "5V_P"
 		(at 313.436 22.606 0)
 		(effects
 			(font
@@ -22098,7 +22098,7 @@
 				)
 			)
 		)
-		(property "Value" "CN3302"
+		(property "Value" "CN3303"
 			(at 49.784 125.222 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22310,7 +22310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33uF"
+		(property "Value" "22uF"
 			(at 30.48 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22344,6 +22344,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 35.814 151.892 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
 			(at 35.814 151.892 0)
 			(hide yes)
 			(show_name no)
@@ -28335,7 +28346,7 @@
 				)
 			)
 		)
-		(property "Value" "47m"
+		(property "Value" "40m"
 			(at 66.294 126.492 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36449,7 +36460,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33uF"
+		(property "Value" "22uF"
 			(at 76.2 130.556 90)
 			(show_name no)
 			(do_not_autoplace no)
