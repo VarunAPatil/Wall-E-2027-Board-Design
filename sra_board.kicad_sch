@@ -1309,474 +1309,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x09_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x09_Pin"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x09, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x09_Pin_1_1"
-				(rectangle
-					(start 0.8636 10.287)
-					(end 0 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -10.033)
-					(end 0 -10.287)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 10.16) (xy 0.8636 10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 7.62) (xy 0.8636 7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -10.16) (xy 0.8636 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 10.16 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 7.62 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -10.16 180)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x10_Pin"
 			(pin_names
 				(offset 1.016)
@@ -17977,7 +17509,7 @@
 		)
 		(uuid "2e9caa69-1678-4f40-95d3-3cdc68065eb2")
 	)
-	(label "7v4"
+	(label "12V"
 		(at 387.096 87.376 0)
 		(effects
 			(font
@@ -18048,7 +17580,7 @@
 		(uuid "3f7ddb8c-59c2-4024-bdbb-1fa13f01e702")
 	)
 	(label "16"
-		(at 161.544 99.822 0)
+		(at 161.544 102.362 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18228,7 +17760,7 @@
 		(uuid "52a21f45-ca77-44a0-abe7-3f4ec63f1d67")
 	)
 	(label "4"
-		(at 161.544 102.362 0)
+		(at 161.544 104.902 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18608,7 +18140,7 @@
 		)
 		(uuid "8f9c5137-fd67-47be-8256-faf838f6e2b7")
 	)
-	(label "CLK"
+	(label "18"
 		(at 177.292 101.092 0)
 		(effects
 			(font
@@ -18658,7 +18190,7 @@
 		)
 		(uuid "924f1d32-5fb5-40f3-b00b-4b5d14e9675e")
 	)
-	(label "7V4_Switch"
+	(label "12V_Switch"
 		(at 387.096 65.278 180)
 		(effects
 			(font
@@ -18698,7 +18230,7 @@
 		)
 		(uuid "9e2f33f8-89eb-4dd8-ac45-f85622551a8e")
 	)
-	(label "7v4"
+	(label "12V"
 		(at 401.4216 43.4594 0)
 		(effects
 			(font
@@ -18708,7 +18240,7 @@
 		)
 		(uuid "9eff640e-a6ef-4256-ab0a-227ec74bbb74")
 	)
-	(label "7v4"
+	(label "12V"
 		(at 148.59 121.412 0)
 		(effects
 			(font
@@ -18718,7 +18250,7 @@
 		)
 		(uuid "a032aed6-7571-4d2a-b830-9e69d06d7418")
 	)
-	(label "Din"
+	(label "23"
 		(at 177.292 85.852 0)
 		(effects
 			(font
@@ -18909,7 +18441,7 @@
 		(uuid "b6719d0c-f2db-4653-91ad-d8f5e1b054d6")
 	)
 	(label "0"
-		(at 161.544 104.902 0)
+		(at 161.544 107.442 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19129,7 +18661,7 @@
 		)
 		(uuid "d441cc90-6c9e-48f5-a483-5e621f4f1d42")
 	)
-	(label "7v4"
+	(label "12V"
 		(at 189.738 152.908 180)
 		(effects
 			(font
@@ -19299,7 +18831,7 @@
 		)
 		(uuid "e988f89c-fe29-49c7-a593-aacc6ea3e663")
 	)
-	(label "CS"
+	(label "5"
 		(at 177.292 103.632 0)
 		(effects
 			(font
@@ -19310,7 +18842,7 @@
 		(uuid "ead04e06-3790-4bd6-84d3-d2f5a0f8764b")
 	)
 	(label "2"
-		(at 161.544 97.282 0)
+		(at 161.544 99.822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19319,7 +18851,7 @@
 		)
 		(uuid "eb11722d-96a2-492f-a411-eb70657e4cc8")
 	)
-	(label "7V4_Switch"
+	(label "12V_Switch"
 		(at 375.666 42.164 180)
 		(effects
 			(font
@@ -19408,6 +18940,16 @@
 			(justify left bottom)
 		)
 		(uuid "f4258687-9c59-4fe8-bfa5-e70e84d1ba09")
+	)
+	(label "15"
+		(at 161.544 97.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4ea1df0-2b78-4636-8b9c-4d190f3c698d")
 	)
 	(label "33"
 		(at 150.114 104.902 0)
@@ -20960,7 +20502,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x09_Pin")
+		(lib_id "Connector:Conn_01x10_Pin")
 		(at 156.464 94.742 0)
 		(unit 1)
 		(body_style 1)
@@ -20990,7 +20532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 156.464 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -21012,7 +20554,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x09, script generated"
+		(property "Description" "Generic connector, single row, 01x10, script generated"
 			(at 156.464 94.742 0)
 			(hide yes)
 			(show_name no)
@@ -21049,6 +20591,9 @@
 		)
 		(pin "9"
 			(uuid "5d205f58-ff6d-4588-9b07-85e6876ddb8f")
+		)
+		(pin "10"
+			(uuid "15b09539-786f-43a7-84e6-23422c09699b")
 		)
 		(instances
 			(project "sra_board"
@@ -22507,7 +22052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 24.4348 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -22989,7 +22534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 392.684 96.266 0)
 			(hide yes)
 			(show_name no)
@@ -25384,7 +24929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 380.238 45.974 0)
 			(hide yes)
 			(show_name no)
@@ -25634,7 +25179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 387.096 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -28356,7 +27901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 66.294 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -33601,7 +33146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
 			(at 276.86 130.048 0)
 			(hide yes)
 			(show_name no)
@@ -36731,7 +36276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 177.546 161.036 0)
 			(hide yes)
 			(show_name no)
@@ -37982,7 +37527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 379.73 25.908 0)
 			(hide yes)
 			(show_name no)
