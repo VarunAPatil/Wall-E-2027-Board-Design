@@ -33905,7 +33905,7 @@
 		(fields_autoplaced yes)
 		(uuid "c647d62f-30dc-4036-89d1-4ad8009174ce")
 		(property "Reference" "R3"
-			(at 83.058 131.3179 0)
+			(at 83.82 131.3179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33915,8 +33915,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 83.058 133.8579 0)
+		(property "Value" "4.7k"
+			(at 83.82 133.8579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36134,7 +36134,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8fe870f-14a4-446a-ae69-2b97d3b2c701")
 		(property "Reference" "R4"
-			(at 94.996 131.3179 0)
+			(at 95.25 131.3179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36144,8 +36144,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 94.996 133.8579 0)
+		(property "Value" "4.7k"
+			(at 95.25 133.8579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
