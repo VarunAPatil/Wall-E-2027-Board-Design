@@ -273,7 +273,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_driven|1579880|1663700|52587c6b-d48b-4f63-bfdb-1dbb91daca1d|00000000-0000-0000-0000-000000000000|/294e2e5f-a7b9-4d81-904c-b55cda9b730c|/294e2e5f-a7b9-4d81-904c-b55cda9b730c|",
+        ""
+      ],
+      [
+        "pin_not_driven|1656080|1864360|d943ed3d-0e25-4b9f-b4fb-1f1cb321c8c6|00000000-0000-0000-0000-000000000000|/294e2e5f-a7b9-4d81-904c-b55cda9b730c|/294e2e5f-a7b9-4d81-904c-b55cda9b730c|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -674,7 +683,7 @@
         "uuid": "294e2e5f-a7b9-4d81-904c-b55cda9b730c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG2-4,#FLG6",
     "variants": []
   },
   "sheets": [
