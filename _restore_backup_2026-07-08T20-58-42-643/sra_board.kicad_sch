@@ -18236,7 +18236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 367.03 118.872 0)
 			(hide yes)
 			(show_name no)
@@ -21202,7 +21202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 112.776 131.572 0)
 			(hide yes)
 			(show_name no)
@@ -21515,7 +21515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+		(property "Footprint" "Fuse:Fuse_Littelfuse-LVR100"
 			(at 334.264 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -22030,7 +22030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Motor_driver:MODULE_ROB-14450"
+		(property "Footprint" "footprints:MODULE_ROB-14450"
 			(at 170.434 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -23302,7 +23302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 367.284 126.746 0)
 			(hide yes)
 			(show_name no)
@@ -23538,7 +23538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2PS-VH_1x02_P3.96mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
 			(at 260.858 127.254 0)
 			(hide yes)
 			(show_name no)
@@ -24321,7 +24321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 367.538 134.366 0)
 			(hide yes)
 			(show_name no)
@@ -24475,7 +24475,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 388.112 118.872 0)
 			(hide yes)
 			(show_name no)
@@ -25913,7 +25913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 112.014 117.602 0)
 			(hide yes)
 			(show_name no)
@@ -26713,7 +26713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 388.874 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -27169,7 +27169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+		(property "Footprint" "Fuse:Fuse_Littelfuse-LVR100"
 			(at 295.3004 127.4826 90)
 			(hide yes)
 			(show_name no)
@@ -30640,7 +30640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 81.534 119.634 0)
 			(hide yes)
 			(show_name no)
@@ -34647,7 +34647,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 388.62 126.492 0)
 			(hide yes)
 			(show_name no)
