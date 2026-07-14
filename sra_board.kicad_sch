@@ -10301,6 +10301,19 @@
 		)
 		(uuid "6abdf52f-1753-4d5d-bac5-35af898779ba")
 	)
+	(text "ESP32-Headers"
+		(exclude_from_sim no)
+		(at 73.66 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "6d09fb4e-d57b-4b09-bd69-7497d33708c7")
+	)
 	(text "Serial Boot\n"
 		(exclude_from_sim no)
 		(at 170.18 105.156 0)
@@ -10354,7 +10367,7 @@
 	)
 	(text "Boot switches"
 		(exclude_from_sim no)
-		(at 132.334 105.156 0)
+		(at 134.112 104.902 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18830,7 +18843,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX7219CWG_T:SOIC127P1032X265-24N"
+		(property "Footprint" "max:SOIC24"
 			(at 363.474 65.024 0)
 			(hide yes)
 			(show_name no)
@@ -24723,7 +24736,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_TDK_VLS6045EX_VLS6045AF"
 			(at 169.418 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -30885,7 +30898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMB"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 326.009 130.302 0)
 			(hide yes)
 			(show_name no)
@@ -31633,7 +31646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
+		(property "Footprint" "CN3303N:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 145.034 186.69 0)
 			(hide yes)
 			(show_name no)
