@@ -10043,7 +10043,7 @@
 		(uuid "7b615e9d-545f-4658-8a8e-c9e1bc6cc08e")
 	)
 	(rectangle
-		(start 200.406 145.288)
+		(start 200.406 145.034)
 		(end 279.654 202.692)
 		(stroke
 			(width 0.2)
