@@ -12342,6 +12342,16 @@
 	)
 	(wire
 		(pts
+			(xy 385.826 64.008) (xy 389.636 64.008)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7f1c40-9175-4e74-84be-865bad931e5e")
+	)
+	(wire
+		(pts
 			(xy 86.614 124.714) (xy 90.932 124.714)
 		)
 		(stroke
@@ -14472,6 +14482,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.636 61.468) (xy 385.826 61.468)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46c1177-d2f1-4b9e-a90e-cc111b3b2c3b")
+	)
+	(wire
+		(pts
 			(xy 87.376 29.972) (xy 91.694 29.972)
 		)
 		(stroke
@@ -16042,6 +16062,16 @@
 	)
 	(wire
 		(pts
+			(xy 385.826 58.928) (xy 389.636 58.928)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41e7dac-443a-44c6-b868-844d24a06fe4")
+	)
+	(wire
+		(pts
 			(xy 290.068 21.336) (xy 290.068 26.416)
 		)
 		(stroke
@@ -17008,6 +17038,16 @@
 		)
 		(uuid "7bdd2e00-c0ec-47d6-9756-111b3e993065")
 	)
+	(label "5V_P"
+		(at 389.636 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7bdfd892-7607-4be8-afb1-97244892a8a2")
+	)
 	(label "R4"
 		(at 341.63 70.104 180)
 		(effects
@@ -17248,6 +17288,16 @@
 			(justify left bottom)
 		)
 		(uuid "94e236f8-dd03-4b6e-983f-896e8bdff423")
+	)
+	(label "Dout"
+		(at 389.636 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "972631c8-ffc9-44ed-8789-baa999eed204")
 	)
 	(label "18"
 		(at 119.38 46.228 0)
@@ -22023,6 +22073,85 @@
 			(project "sra_board"
 				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 389.636 64.008 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c0fe297-9625-494f-8462-83709fad7969")
+		(property "Reference" "#PWR035"
+			(at 395.986 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 393.446 64.0079 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 389.636 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 389.636 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 389.636 64.008 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f76a936b-a6aa-4a1b-8253-60cd1b8bd0c6")
+		)
+		(instances
+			(project "sra_board"
+				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -27862,6 +27991,88 @@
 			(project "sra_board"
 				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 380.746 61.468 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82ab6659-a873-4fba-b23b-34fee729f0d2")
+		(property "Reference" "J1"
+			(at 384.048 55.626 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 378.46 61.214 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 380.746 61.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 380.746 61.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 380.746 61.468 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "98b646e4-05f8-4499-bf54-1755e53293ae")
+		)
+		(pin "2"
+			(uuid "50287e95-0198-4ab1-a63f-a039f421c62c")
+		)
+		(pin "1"
+			(uuid "a7ba78e2-016b-4866-95ac-3c02aa8eb438")
+		)
+		(instances
+			(project "sra_board"
+				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
+					(reference "J1")
 					(unit 1)
 				)
 			)
