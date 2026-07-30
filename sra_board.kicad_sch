@@ -8070,7 +8070,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:TPS562202"
+		(symbol "Regulator_Switching:TPS562200"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -8087,7 +8087,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TPS562202"
+			(property "Value" "TPS562200"
 				(at -2.54 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8098,7 +8098,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 				(at 1.27 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8110,7 +8110,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tps562202"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps563200.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8121,7 +8121,7 @@
 					)
 				)
 			)
-			(property "Description" "2A Synchronous Step-Down Voltage Regulator 580kHz, adjustable output voltage, 4.5-17V Input Voltage, 0.804V-7V Output Voltage, SOT-563"
+			(property "Description" "2A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8132,7 +8132,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "step-down dcdc buck"
+			(property "ki_keywords" "step-down dcdc voltage regulator"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8143,7 +8143,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT?563*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -8154,7 +8154,7 @@
 					)
 				)
 			)
-			(symbol "TPS562202_0_1"
+			(symbol "TPS562200_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -8167,11 +8167,11 @@
 					)
 				)
 			)
-			(symbol "TPS562202_1_1"
+			(symbol "TPS562200_1_1"
 				(pin power_in line
-					(at -10.16 2.54 0)
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "VIN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8205,9 +8205,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8222,10 +8222,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 0 180)
+				(pin input line
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "VBST"
+					(name "VFB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8258,10 +8258,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 10.16 -2.54 180)
+				(pin passive line
+					(at 10.16 0 180)
 					(length 2.54)
-					(name "VFB"
+					(name "VBST"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -28054,99 +28054,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:TPS562202")
-		(at 54.356 168.148 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85d16213-e1f9-480f-99bb-2fa92d8a2f41")
-		(property "Reference" "U6"
-			(at 54.356 157.988 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS562202"
-			(at 54.356 160.528 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
-			(at 55.626 174.498 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tps562202"
-			(at 54.356 168.148 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2A Synchronous Step-Down Voltage Regulator 580kHz, adjustable output voltage, 4.5-17V Input Voltage, 0.804V-7V Output Voltage, SOT-563"
-			(at 54.356 168.148 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "8e51e269-53d4-4fdf-add7-16af4214b813")
-		)
-		(pin "2"
-			(uuid "1d7d2579-3aa0-46c7-be2a-0c23dedf8332")
-		)
-		(pin "4"
-			(uuid "33f29191-9c5a-40cd-b2eb-e48acb40c828")
-		)
-		(pin "6"
-			(uuid "b8908d49-6efa-4a11-a812-945009b28c1f")
-		)
-		(pin "5"
-			(uuid "e522a399-a6b1-4a7f-909a-662012ec01e6")
-		)
-		(pin "1"
-			(uuid "0fb250e7-d371-49c1-a3f5-a57408673fe5")
-		)
-		(instances
-			(project "sra_board"
-				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 307.086 30.226 90)
 		(mirror x)
@@ -36222,6 +36129,99 @@
 			(project "sra_board"
 				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:TPS562200")
+		(at 54.356 168.148 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed730d12-f995-42f8-85d2-d918443b073b")
+		(property "Reference" "U3"
+			(at 54.356 158.242 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS562200"
+			(at 54.356 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 55.626 174.498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps563200.pdf"
+			(at 54.356 168.148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2A Synchronous Step-Down Voltage Regulator, Adjustable Output Voltage, 4.5-17V Input Voltage, SOT-23-6"
+			(at 54.356 168.148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3a93cc73-3679-4cf0-96e4-d0c68abac23f")
+		)
+		(pin "1"
+			(uuid "be784521-ef66-43e0-8b33-bf537083d8cb")
+		)
+		(pin "6"
+			(uuid "4297195f-9c75-49b1-9dd0-e9169cdd99be")
+		)
+		(pin "2"
+			(uuid "f06f391b-ad0a-4bbd-9a43-01ad51a89f29")
+		)
+		(pin "4"
+			(uuid "25ecbbd1-ca01-40c3-b118-cdd1aab829f1")
+		)
+		(pin "5"
+			(uuid "55a77596-d02e-4934-85c2-022b1ea9018d")
+		)
+		(instances
+			(project "sra_board"
+				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
+					(reference "U3")
 					(unit 1)
 				)
 			)
