@@ -19806,8 +19806,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1 uF"
-			(at 102.87 27.686 0)
+		(property "Value" "0.1uF"
+			(at 108.458 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21728,7 +21728,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CONSONANCE(上海如韵)"
+		(property "MANUFACTURER" "CONSONANCE(上海如韵)"
 			(at 49.784 150.622 0)
 			(hide yes)
 			(show_name no)
@@ -22083,7 +22083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 21.336 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31138,7 +31138,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uf"
+		(property "Value" "10uF"
 			(at 318.516 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38901,7 +38901,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nf"
+		(property "Value" "0.1uF"
 			(at 305.562 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
