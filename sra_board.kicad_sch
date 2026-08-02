@@ -674,392 +674,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x07_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x07_Pin"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x07, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x07_Pin_1_1"
-				(rectangle
-					(start 0.8636 7.747)
-					(end 0 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 7.62) (xy 0.8636 7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 7.62 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x08_Pin"
 			(pin_names
 				(offset 1.016)
@@ -10250,7 +9864,7 @@
 		)
 		(uuid "1e247ae1-2e47-4d11-a209-73638e82c49a")
 	)
-	(text "CN3303 (Charging IC)"
+	(text "CN3303 ICH = 1A (Charging IC)"
 		(exclude_from_sim no)
 		(at 104.394 143.764 0)
 		(effects
@@ -11509,6 +11123,10 @@
 		(uuid "1549f04b-f887-419f-8786-89383a7f3342")
 	)
 	(no_connect
+		(at 56.388 117.856)
+		(uuid "2ceaa17f-5583-4603-9a38-de8e2117a10b")
+	)
+	(no_connect
 		(at 27.432 128.27)
 		(uuid "42ce4213-3953-4626-b871-dbd98efa583e")
 	)
@@ -11732,6 +11350,16 @@
 	)
 	(wire
 		(pts
+			(xy 56.388 125.476) (xy 60.706 125.476)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087816f9-52d3-40ac-b4c8-3b9f7d8d9e11")
+	)
+	(wire
+		(pts
 			(xy 219.456 38.608) (xy 229.362 38.608)
 		)
 		(stroke
@@ -11812,6 +11440,16 @@
 	)
 	(wire
 		(pts
+			(xy 56.388 133.096) (xy 60.706 133.096)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e260f08-0fe4-4e32-93ea-f29b5060f462")
+	)
+	(wire
+		(pts
 			(xy 88.392 69.596) (xy 92.71 69.596)
 		)
 		(stroke
@@ -11819,6 +11457,16 @@
 			(type default)
 		)
 		(uuid "0e64f5ff-eeb4-4635-a66c-c0bc24b01c05")
+	)
+	(wire
+		(pts
+			(xy 56.388 135.636) (xy 60.706 135.636)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb69c2b-ddb8-430d-91a3-dacb25bb4d81")
 	)
 	(wire
 		(pts
@@ -12039,16 +11687,6 @@
 			(type default)
 		)
 		(uuid "193af974-f7c4-42ce-81f0-3f87d246596c")
-	)
-	(wire
-		(pts
-			(xy 56.388 120.396) (xy 60.706 120.396)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a241bda-2fa5-44ca-9447-c76a790ea1e3")
 	)
 	(wire
 		(pts
@@ -12352,16 +11990,6 @@
 	)
 	(wire
 		(pts
-			(xy 56.388 130.556) (xy 57.658 130.556)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d111919-c40d-42a1-a9f0-7a76b1f4fd63")
-	)
-	(wire
-		(pts
 			(xy 60.96 54.864) (xy 65.278 54.864)
 		)
 		(stroke
@@ -12389,6 +12017,16 @@
 			(type default)
 		)
 		(uuid "2f02a372-1f37-4486-9673-c647220c97c0")
+	)
+	(wire
+		(pts
+			(xy 56.388 122.936) (xy 57.658 122.936)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f52dc9b-da56-4cfa-8988-52193fa4ba73")
 	)
 	(wire
 		(pts
@@ -12699,16 +12337,6 @@
 			(type default)
 		)
 		(uuid "4218032f-0996-47ff-a29d-895867323958")
-	)
-	(wire
-		(pts
-			(xy 56.388 128.016) (xy 60.706 128.016)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42e6c95c-ff55-4f7f-a8ba-d837b0464fc4")
 	)
 	(wire
 		(pts
@@ -13069,6 +12697,16 @@
 			(type default)
 		)
 		(uuid "57d905f6-b160-43f5-87d5-cf1d176dae33")
+	)
+	(wire
+		(pts
+			(xy 56.388 128.016) (xy 60.706 128.016)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580de5bf-9fb2-4cea-970a-e5342bd18813")
 	)
 	(wire
 		(pts
@@ -13449,6 +13087,16 @@
 			(type default)
 		)
 		(uuid "6c1decff-a232-4908-8284-cf7db3ab6fd3")
+	)
+	(wire
+		(pts
+			(xy 327.406 126.492) (xy 327.406 124.968)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3cdd18-6ba7-42e9-9a74-e2968806d502")
 	)
 	(wire
 		(pts
@@ -13989,6 +13637,16 @@
 			(type default)
 		)
 		(uuid "8674d231-a479-4a95-9c38-e4e21bd43abc")
+	)
+	(wire
+		(pts
+			(xy 56.388 130.556) (xy 60.706 130.556)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c5064a-6d1c-4e06-976f-4d8ba12b7d56")
 	)
 	(wire
 		(pts
@@ -14649,26 +14307,6 @@
 			(type default)
 		)
 		(uuid "acfa9543-4e55-49de-806b-6adcf654c704")
-	)
-	(wire
-		(pts
-			(xy 56.388 122.936) (xy 60.706 122.936)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adbd4896-f9a9-46ef-b73a-0841dd2a1c7b")
-	)
-	(wire
-		(pts
-			(xy 56.388 125.476) (xy 60.706 125.476)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae7b2c51-fd14-45f9-bc6a-7a45427dddff")
 	)
 	(wire
 		(pts
@@ -15662,6 +15300,16 @@
 	)
 	(wire
 		(pts
+			(xy 56.388 120.396) (xy 60.706 120.396)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe69d2f-4abf-4808-9724-0f2c5faa1e15")
+	)
+	(wire
+		(pts
 			(xy 297.688 87.63) (xy 297.688 97.79)
 		)
 		(stroke
@@ -15789,16 +15437,6 @@
 			(type default)
 		)
 		(uuid "e3bd1f74-6416-40b3-8947-38bd29d3b5fc")
-	)
-	(wire
-		(pts
-			(xy 56.388 133.096) (xy 60.706 133.096)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e411241b-0a48-49b6-9daf-743fb4d605cb")
 	)
 	(wire
 		(pts
@@ -15939,16 +15577,6 @@
 			(type default)
 		)
 		(uuid "ec57fba2-f1d6-42ea-a8c7-d68f4dcf358d")
-	)
-	(wire
-		(pts
-			(xy 56.388 117.856) (xy 60.706 117.856)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec9959b0-8083-477a-b7e3-685dfd247b28")
 	)
 	(wire
 		(pts
@@ -16525,6 +16153,16 @@
 		)
 		(uuid "35a3695f-cd2d-454c-9c29-36e42cd7275c")
 	)
+	(label "36"
+		(at 60.706 125.476 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3739cbd2-bedd-42a5-93ab-055315d55057")
+	)
 	(label "32"
 		(at 65.278 80.264 0)
 		(effects
@@ -16574,16 +16212,6 @@
 			(justify left bottom)
 		)
 		(uuid "3fe2e845-27dd-4f30-a477-a1dee992adb3")
-	)
-	(label "32"
-		(at 60.706 117.856 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "40ddf656-8f69-4f76-9eee-b08089547792")
 	)
 	(label "R5"
 		(at 322.326 74.676 0)
@@ -16765,16 +16393,6 @@
 			(justify left bottom)
 		)
 		(uuid "5d6cefbc-c151-4664-9c1a-016289130182")
-	)
-	(label "3V3"
-		(at 60.706 133.096 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5eaccc3f-d6b9-4db8-b4ca-242e455a1221")
 	)
 	(label "5V_P"
 		(at 384.556 26.924 0)
@@ -17108,6 +16726,16 @@
 		)
 		(uuid "861916d0-58a0-4e94-9dbd-c3c2a5889bac")
 	)
+	(label "BAT"
+		(at 327.406 126.492 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87b873e7-7828-421f-8ef2-b85b0ae2c210")
+	)
 	(label "12"
 		(at 138.938 30.48 180)
 		(effects
@@ -17259,6 +16887,16 @@
 		)
 		(uuid "94e236f8-dd03-4b6e-983f-896e8bdff423")
 	)
+	(label "34"
+		(at 60.706 130.556 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96c062e2-d00d-49e4-9765-090da516aa58")
+	)
 	(label "18"
 		(at 119.38 46.228 0)
 		(effects
@@ -17289,15 +16927,15 @@
 		)
 		(uuid "991d72ae-0072-493e-9f28-d0d1e6a663b4")
 	)
-	(label "35"
-		(at 60.706 120.396 0)
+	(label "32"
+		(at 60.706 135.636 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "9a8ecf97-30f2-49f7-9f94-79e1b2c582b7")
+		(uuid "995f92cc-4a00-420b-9e9d-dd04fd527cac")
 	)
 	(label "5V_P"
 		(at 193.294 90.932 0)
@@ -17339,15 +16977,15 @@
 		)
 		(uuid "a2826f83-ed9b-42bd-8f0a-ff25365f8e27")
 	)
-	(label "34"
-		(at 60.706 122.936 0)
+	(label "39"
+		(at 60.706 128.016 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a3fa0361-c6b6-4253-a8b9-5239de63b2ee")
+		(uuid "a37ed33f-1866-4812-b606-041457397aa7")
 	)
 	(label "R8"
 		(at 341.884 95.504 180)
@@ -17470,6 +17108,16 @@
 		)
 		(uuid "ad616180-a826-425c-8a3e-a41939f1f352")
 	)
+	(label "35"
+		(at 60.706 133.096 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af7daa34-4a06-456b-9c2f-a2594402410c")
+	)
 	(label "26"
 		(at 65.278 75.184 0)
 		(effects
@@ -17561,16 +17209,6 @@
 		)
 		(uuid "c168a058-4057-4269-ad4b-88e72548aa67")
 	)
-	(label "36"
-		(at 60.706 128.016 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4e63f17-8370-4c4c-93f9-16168250bb70")
-	)
 	(label "15"
 		(at 92.71 79.756 0)
 		(effects
@@ -17651,15 +17289,15 @@
 		)
 		(uuid "caf41037-cbd4-4723-9da3-572e1b233ef6")
 	)
-	(label "39"
-		(at 60.706 125.476 0)
+	(label "3V3"
+		(at 60.706 120.396 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "cc2a7177-fc95-40a0-8ecc-8f5561779d64")
+		(uuid "cd91f586-9ccc-4a37-a335-a4e9863f0dac")
 	)
 	(label "3V3"
 		(at 235.204 96.266 180)
@@ -18022,6 +17660,16 @@
 		)
 		(uuid "f66790a4-ff9a-418d-81e0-aedfeb640156")
 	)
+	(label "12V"
+		(at 327.406 117.348 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f726385d-5888-4f9e-9691-634a34831fab")
+	)
 	(label "C6"
 		(at 385.318 44.704 0)
 		(effects
@@ -18073,6 +17721,126 @@
 		(uuid "ff1d1469-9e3e-4f93-88b2-85c4230bb7e0")
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x08_Pin")
+		(at 51.308 125.476 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05d97f86-da93-498f-aea3-7776818b0332")
+		(property "Reference" "J1"
+			(at 51.943 112.268 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08_Pin"
+			(at 51.943 114.808 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:JUSHUO_AFA07-S08FCA-00_1x8-1MP_P1.0mm_Horizontal"
+			(at 51.308 125.476 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 51.308 125.476 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 51.308 125.476 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 51.308 125.476 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 51.308 125.476 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "b301970d-8ed5-4fe4-985e-e27ed5d260db")
+		)
+		(pin "7"
+			(uuid "fbfdbcf9-672a-4f83-9fa1-760184e01612")
+		)
+		(pin "5"
+			(uuid "6767a762-5448-40a7-92da-43af96485987")
+		)
+		(pin "4"
+			(uuid "f0530aa8-3291-4c09-abee-a631ddb43a14")
+		)
+		(pin "1"
+			(uuid "6f53a245-e8c5-4534-b0df-fb7fe7e63401")
+		)
+		(pin "2"
+			(uuid "4a51036e-02b6-4c87-b18c-9c60472be1e1")
+		)
+		(pin "6"
+			(uuid "f32905cd-df98-4fcc-8c76-c958651e56aa")
+		)
+		(pin "3"
+			(uuid "1f8dd492-fcb9-4658-88a5-c1a0a8438256")
+		)
+		(instances
+			(project "sra_board"
+				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 181.864 175.26 0)
 		(mirror y)
@@ -18095,7 +17863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uf"
+		(property "Value" "NC"
 			(at 186.944 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18106,7 +17874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.8988 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -18129,6 +17897,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 181.864 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 181.864 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 181.864 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -18298,6 +18088,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 367.03 118.872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 367.03 118.872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "sra_board"
 				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
@@ -18451,6 +18263,28 @@
 		)
 		(property "Sim.Pin" "1=K 2=A"
 			(at 318.516 125.476 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 318.516 125.476 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 318.516 125.476 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18709,6 +18543,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 261.366 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 261.366 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5385bf70-5120-4a83-bb10-1d643bd1164d")
 		)
@@ -18779,6 +18635,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 82.296 37.592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 82.296 37.592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 82.296 37.592 0)
 			(hide yes)
 			(show_name no)
@@ -18989,6 +18867,28 @@
 				(justify bottom)
 			)
 		)
+		(property "Field5" ""
+			(at 363.474 65.024 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 363.474 65.024 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0e3d7ac2-7d57-4097-9bad-03fd31ccab0f")
 		)
@@ -19148,6 +19048,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 284.226 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 284.226 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4bce62c2-a141-424b-bad0-852bb9bedb31")
 		)
@@ -19219,6 +19141,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 69.596 164.338 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 69.596 164.338 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 69.596 164.338 0)
 			(hide yes)
 			(show_name no)
@@ -19301,6 +19245,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 64.516 180.848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 64.516 180.848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 64.516 180.848 0)
 			(hide yes)
 			(show_name no)
@@ -19404,6 +19370,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 261.366 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 261.366 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "53167aeb-f267-40dd-b11e-897d306ac076")
 		)
@@ -19474,6 +19462,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 147.066 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 147.066 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 147.066 33.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19555,6 +19565,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 25.146 35.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 25.146 35.052 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 25.146 35.052 0)
 			(hide yes)
 			(show_name no)
@@ -19799,6 +19831,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 147.066 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 147.066 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6f918e07-5fe8-48b8-b0c3-cbe9b9a31f0e")
 		)
@@ -19869,6 +19923,28 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 177.038 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 177.038 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 177.038 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -19960,6 +20036,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 187.706 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 187.706 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3c1958d5-36e1-499d-8a3e-ce15aa20041a")
 		)
@@ -20041,6 +20139,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 307.086 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 307.086 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 307.086 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20143,6 +20263,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 291.846 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 291.846 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ac4d1dd-eddf-4701-8fd6-e52a497b43ba")
 		)
@@ -20213,6 +20355,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 242.824 28.956 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 242.824 28.956 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 242.824 28.956 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20315,6 +20479,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 299.466 30.226 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 299.466 30.226 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7d008ba-d2d3-4b7a-adc7-2172231872b4")
 		)
@@ -20387,6 +20573,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 128.016 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 128.016 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 128.016 170.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20490,100 +20698,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x07_Pin")
-		(at 51.308 125.476 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1ef2dedf-6df6-4582-8dd0-d0671568669e")
-		(property "Reference" "J12"
-			(at 55.372 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x07_Pin"
-			(at 55.372 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_EH_S7B-EH_1x07_P2.50mm_Horizontal"
-			(at 51.308 125.476 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 51.308 125.476 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 51.308 125.476 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "146abaad-4d51-4256-8e4e-16c00cf6c77b")
-		)
-		(pin "2"
-			(uuid "db54229c-1648-450f-9455-e36a55a583dd")
-		)
-		(pin "1"
-			(uuid "dae8e68f-4db3-4169-868e-f02763fa7f8c")
-		)
-		(pin "5"
-			(uuid "420ac139-efb0-49fb-85c7-45c678d12786")
-		)
-		(pin "4"
-			(uuid "ffd11f06-0ba5-4731-8817-d00ee8cf91d1")
-		)
-		(pin "7"
-			(uuid "0d1a798f-0597-4c52-a912-dd114da33aa9")
-		)
-		(pin "6"
-			(uuid "16a19846-1d26-4442-b6c9-160a4182b3de")
-		)
-		(instances
-			(project "sra_board"
-				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
-					(reference "J12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 291.846 40.894 90)
 		(mirror x)
@@ -20652,6 +20766,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 291.846 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 291.846 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 291.846 40.894 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20754,6 +20890,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 284.226 30.226 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 284.226 30.226 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "320d62af-23d0-4a90-848b-444a4a687612")
 		)
@@ -20803,7 +20961,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.646 162.7632 0)
 			(hide yes)
 			(show_name no)
@@ -20827,6 +20985,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 84.836 161.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 84.836 161.798 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 84.836 161.798 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20908,6 +21088,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 209.55 34.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 209.55 34.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 209.55 34.798 0)
 			(hide yes)
 			(show_name no)
@@ -21011,6 +21213,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 284.226 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 284.226 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f0d9504d-7396-4750-bb76-92b7940b5cab")
 		)
@@ -21104,6 +21328,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 284.226 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 284.226 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d1d23884-1e48-40df-8fad-b40e98e7831d")
 		)
@@ -21185,6 +21431,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 124.206 155.956 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 124.206 155.956 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "16326777-228b-41ae-8f00-2df1e52558d6")
 		)
@@ -21254,6 +21522,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 112.776 131.572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 112.776 131.572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 112.776 131.572 0)
 			(hide yes)
 			(show_name no)
@@ -21501,6 +21791,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 269.494 127.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 269.494 127.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0969df43-9b36-47c5-b0e2-1e22751e5b92")
 		)
@@ -21687,6 +21999,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 334.264 126.492 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 334.264 126.492 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cec56ba4-b061-4e06-91fb-6e28d196de28")
 		)
@@ -21848,6 +22182,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 268.986 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 268.986 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 268.986 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22229,6 +22585,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 170.434 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 170.434 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "43fad562-0d74-41fd-8fec-30207f9c77ca")
 		)
@@ -22353,6 +22731,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 68.326 180.848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 68.326 180.848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7f30e4e4-dceb-4f7d-a4a9-c89b016b87f2")
 		)
@@ -22363,6 +22763,109 @@
 			(project "sra_board"
 				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 327.406 121.158 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41e91eb0-4655-4635-a243-53bff59f5e87")
+		(property "Reference" "R16"
+			(at 329.438 119.888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 329.692 122.428 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 329.184 121.158 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 327.406 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 327.406 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 327.406 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 327.406 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f934c56-bb6f-469c-b490-a6b1fdff91fb")
+		)
+		(pin "1"
+			(uuid "bdb9fdc2-0220-401d-9b3c-231d41d66ced")
+		)
+		(instances
+			(project "sra_board"
+				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -22437,6 +22940,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 242.824 36.576 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 242.824 36.576 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 242.824 36.576 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22539,6 +23064,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 268.986 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 268.986 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5816d32-e79d-435b-8f6b-4a7082d6de9d")
 		)
@@ -22623,6 +23170,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 314.96 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 314.96 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 314.96 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22755,6 +23324,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 237.49 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 237.49 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bdf0eba4-aa7e-4d52-b696-7a19b5a51252")
 		)
@@ -22837,6 +23428,28 @@
 			)
 		)
 		(property "LCSC" ""
+			(at 219.964 92.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 219.964 92.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 219.964 92.456 0)
 			(hide yes)
 			(show_name no)
@@ -22940,6 +23553,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 268.986 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 268.986 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "434c72fe-abf9-46c2-ac09-ed469d208a2d")
 		)
@@ -23033,6 +23668,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 261.366 30.226 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 261.366 30.226 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bc54b12f-ad9a-4064-9185-ec7fb82eaf07")
 		)
@@ -23117,6 +23774,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 291.846 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 291.846 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 291.846 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23330,7 +24009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 35.0012 166.878 0)
 			(hide yes)
 			(show_name no)
@@ -23353,6 +24032,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 34.036 163.068 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 34.036 163.068 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 34.036 163.068 0)
 			(hide yes)
 			(show_name no)
@@ -23442,6 +24143,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 222.504 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 222.504 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72b76846-870f-4928-b8bb-30a057a1d9f4")
 		)
@@ -23491,7 +24214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2PS-VH_1x02_P3.96mm_Horizontal"
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002"
 			(at 260.858 127.254 0)
 			(hide yes)
 			(show_name no)
@@ -23514,6 +24237,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 260.858 127.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 260.858 127.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 260.858 127.254 0)
 			(hide yes)
 			(show_name no)
@@ -23617,6 +24362,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 276.606 30.226 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 276.606 30.226 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6b837dac-b813-48f9-a651-ed677a150915")
 		)
@@ -23687,6 +24454,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 109.982 38.608 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 109.982 38.608 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 109.982 38.608 0)
 			(hide yes)
 			(show_name no)
@@ -23793,6 +24582,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 229.362 34.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 229.362 34.798 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 229.362 34.798 0)
 			(hide yes)
 			(show_name no)
@@ -23961,6 +24772,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 160.02 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 160.02 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0f6ad986-b7d3-4793-868c-87766f5d221d")
 		)
@@ -24045,6 +24878,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 276.606 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 276.606 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 276.606 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24211,6 +25066,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 147.066 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 147.066 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "941bc70d-0c07-46eb-bec7-b853edbe2d23")
 		)
@@ -24294,6 +25171,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 116.332 155.956 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 116.332 155.956 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 116.332 155.956 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24463,6 +25362,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 367.538 134.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 367.538 134.366 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "sra_board"
 				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
@@ -24617,6 +25538,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 388.112 118.872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 388.112 118.872 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "sra_board"
 				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
@@ -24657,7 +25600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Push_2P2T_Toggle_CK_PVA2OAH5xxxxxxV2"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 343.154 121.412 0)
 			(hide yes)
 			(show_name no)
@@ -24680,6 +25623,28 @@
 			)
 		)
 		(property "Description" "Momentary Switch, dual pole double throw"
+			(at 343.154 126.492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 343.154 126.492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 343.154 126.492 0)
 			(hide yes)
 			(show_name no)
@@ -24781,6 +25746,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 238.506 62.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 238.506 62.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8281698d-b9f6-42b7-9f5c-f3c478156abd")
 		)
@@ -24821,7 +25808,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3uH"
+		(property "Value" "4.7uH"
 			(at 166.116 159.258 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24856,6 +25843,28 @@
 		)
 		(property "Description" "Inductor"
 			(at 169.418 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 169.418 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 169.418 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25058,7 +26067,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20m"
+		(property "Value" "40m"
 			(at 165.608 177.292 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25093,6 +26102,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 165.608 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 165.608 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 165.608 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25186,6 +26217,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 314.706 30.226 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 314.706 30.226 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 314.706 30.226 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25365,6 +26418,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 276.606 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 276.606 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "05512062-5a70-4962-8fd9-5eb0276bfae6")
 		)
@@ -25448,6 +26523,28 @@
 		)
 		(property "LCSC" ""
 			(at 181.102 129.032 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 181.102 129.032 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 181.102 129.032 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25549,6 +26646,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 157.988 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 157.988 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4a500df2-bebe-49a8-8fbf-c1303048b395")
 		)
@@ -25597,7 +26716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 28.6512 166.878 0)
 			(hide yes)
 			(show_name no)
@@ -25620,6 +26739,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 27.686 163.068 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 27.686 163.068 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 27.686 163.068 0)
 			(hide yes)
 			(show_name no)
@@ -25723,6 +26864,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 268.986 30.226 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 268.986 30.226 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd3b6fca-0c07-4087-893e-0e029f21b02d")
 		)
@@ -25816,6 +26979,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 314.706 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 314.706 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "79ef6309-fa89-4af8-bf6a-5a49b1280307")
 		)
@@ -25854,7 +27039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uf"
+		(property "Value" "NC"
 			(at 184.912 155.194 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25865,7 +27050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 190.9572 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -25888,6 +27073,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 189.992 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 189.992 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 189.992 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -26055,6 +27262,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 112.014 117.602 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 112.014 117.602 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "afc05aa8-a81a-42e8-b53c-34b8294e38d7")
 		)
@@ -26139,6 +27368,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 268.986 70.866 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 268.986 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 268.986 70.866 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26241,6 +27492,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 291.846 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 291.846 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d85b2c86-a85e-42d5-8fde-a347dbaf0ccc")
 		)
@@ -26325,6 +27598,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 261.62 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 261.62 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 261.62 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26505,6 +27800,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 299.466 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 299.466 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d07a8a14-980c-423c-b4e0-a731f503c2df")
 		)
@@ -26589,6 +27906,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 291.846 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 291.846 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 291.846 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26691,6 +28030,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 299.466 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 299.466 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36e680d4-07d1-4ebb-9452-300c0218ac26")
 		)
@@ -26760,6 +28121,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 188.214 90.932 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 188.214 90.932 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 188.214 90.932 0)
 			(hide yes)
 			(show_name no)
@@ -26855,6 +28238,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 388.874 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 388.874 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "sra_board"
 				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
@@ -26921,6 +28326,28 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-D0WD-V3 SoC, without PSRAM, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
+			(at 45.72 59.944 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 45.72 59.944 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 45.72 59.944 0)
 			(hide yes)
 			(show_name no)
@@ -27121,6 +28548,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 22.352 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 22.352 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab19e749-7859-4490-a9a2-450a1170ff65")
 		)
@@ -27223,6 +28672,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 269.24 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 269.24 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 269.24 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27421,6 +28892,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 295.3004 125.7046 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 295.3004 125.7046 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "642443d2-2858-4a2a-80dd-6ba5ef600da8")
 		)
@@ -27490,6 +28983,28 @@
 			)
 		)
 		(property "Description" "Momentary Switch, dual pole double throw"
+			(at 304.546 125.476 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 304.546 125.476 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 304.546 125.476 0)
 			(hide yes)
 			(show_name no)
@@ -27605,6 +29120,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 307.086 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 307.086 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "682e9964-e168-4ebf-83aa-6606c340a521")
 		)
@@ -27698,6 +29235,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 291.846 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 291.846 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b7042726-c204-4a2a-a606-1f7ddbc2a67e")
 		)
@@ -27769,6 +29328,28 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 381.254 26.924 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 381.254 26.924 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 381.254 26.924 0)
 			(hide yes)
 			(show_name no)
@@ -27860,6 +29441,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 268.986 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 268.986 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 268.986 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27962,6 +29565,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 284.48 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 284.48 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2e17f4d0-6fd3-40c6-a8fe-5c2046485851")
 		)
@@ -28046,6 +29671,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 307.086 30.226 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 307.086 30.226 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 307.086 30.226 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28148,6 +29795,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 299.72 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 299.72 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab1e2c7a-d4c5-454c-be19-e697c240437d")
 		)
@@ -28241,6 +29910,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 299.466 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 299.466 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60a3f3ea-1ccc-41c6-ba11-30beebf883d6")
 		)
@@ -28325,6 +30016,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 284.226 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 284.226 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 284.226 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28524,6 +30237,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 163.068 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 163.068 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "06764a19-df0c-4ba0-b2a5-db8cde70688c")
 		)
@@ -28598,6 +30333,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 157.988 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 157.988 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 157.988 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28691,6 +30448,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 276.606 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 276.606 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 276.606 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28871,6 +30650,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 261.366 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 261.366 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "140d559b-7a27-463a-9471-00e1133e2973")
 		)
@@ -28941,6 +30742,28 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 259.08 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 259.08 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 259.08 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -29140,6 +30963,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 291.4904 130.5306 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 291.4904 130.5306 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc362210-af1a-4de3-935f-4bb48b525f44")
 		)
@@ -29233,6 +31078,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 284.226 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 284.226 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dae19b2a-5517-4739-9c3d-50e32928e118")
 		)
@@ -29315,6 +31182,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 394.208 75.946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 394.208 75.946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b3346b86-53f0-41b1-8459-fc95653f9faa")
 		)
@@ -29384,6 +31273,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 142.748 90.932 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 142.748 90.932 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 142.748 90.932 0)
 			(hide yes)
 			(show_name no)
@@ -29567,6 +31478,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 299.466 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 299.466 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7b3c0670-51f4-44bb-8048-7800efbe9b47")
 		)
@@ -29648,6 +31581,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 231.394 92.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 231.394 92.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a4d04d84-fea0-4624-9c66-00a99f98c120")
 		)
@@ -29719,6 +31674,28 @@
 		)
 		(property "Description" "Inductor"
 			(at 75.946 160.528 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 75.946 160.528 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 75.946 160.528 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29899,6 +31876,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 276.606 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 276.606 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91a0a959-c4c9-4533-b816-725b23429c27")
 		)
@@ -30057,6 +32056,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 219.456 30.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 219.456 30.988 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "e6b991d6-6a62-48f9-83a9-7f2f9921a26e")
 		)
@@ -30192,6 +32213,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 243.84 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 243.84 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c8ec8e64-d8ca-4207-8e2c-a201df723b48")
 		)
@@ -30280,6 +32323,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 67.056 174.498 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 67.056 174.498 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f8f1d24c-993e-47c9-bb4a-f306e199c5d9")
 		)
@@ -30329,7 +32394,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 88.646 169.1132 0)
 			(hide yes)
 			(show_name no)
@@ -30353,6 +32418,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 84.836 168.148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 84.836 168.148 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 84.836 168.148 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30446,6 +32533,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 299.466 70.866 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 299.466 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 299.466 70.866 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30626,6 +32735,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 57.658 122.936 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a258414f-9b45-4813-bb7a-945a5efaf563")
+		(property "Reference" "#PWR035"
+			(at 64.008 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.706 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.658 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.658 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.658 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e04ca842-60f1-4af9-ad6c-3ca187317318")
+		)
+		(instances
+			(project "sra_board"
+				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 209.55 28.448 0)
 		(unit 1)
@@ -30767,6 +32954,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 81.534 119.634 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 81.534 119.634 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "ba0558e0-dd58-45ea-8e79-9109eb1d0c60")
 		)
@@ -30855,6 +33064,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 178.054 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 178.054 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9d891492-d506-4aa0-873e-702f7174ac8a")
 		)
@@ -30865,84 +33096,6 @@
 			(project "sra_board"
 				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 57.658 130.556 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a52723bc-7408-4ef8-9b3d-bb87a2cf30df")
-		(property "Reference" "#PWR017"
-			(at 64.008 130.556 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.706 129.54 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.658 130.556 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.658 130.556 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.658 130.556 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4bac9f88-ebb7-4cc6-801f-d297a2332fc1")
-		)
-		(instances
-			(project "sra_board"
-				(path "/294e2e5f-a7b9-4d81-904c-b55cda9b730c"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -31122,6 +33275,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 330.454 130.302 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 330.454 130.302 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0c80c84c-7274-4118-9270-f4e5f6f48622")
 		)
@@ -31290,6 +33465,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 222.504 111.506 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 222.504 111.506 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "740b686b-2edd-4d3e-a718-726eaefc5256")
 		)
@@ -31412,6 +33609,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 143.256 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 143.256 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "25083e30-a9d9-4b86-a819-26bb9da097be")
 		)
@@ -31496,6 +33715,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 261.366 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 261.366 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 261.366 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31598,6 +33839,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 307.086 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 307.086 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0cd6731b-9126-4eba-a5b7-2caa7ea7638a")
 		)
@@ -31669,6 +33932,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 318.516 130.556 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 318.516 130.556 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 318.516 130.556 0)
 			(hide yes)
 			(show_name no)
@@ -31760,7 +34045,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CONSONANCE(上海如韵)"
+		(property "MANUFACTURER" "CONSONANCE(上海如韵)"
 			(at 145.034 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -31784,6 +34069,28 @@
 		)
 		(property "LCSC Part" "C559039"
 			(at 145.034 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 145.034 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 145.034 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31881,6 +34188,28 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 185.674 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 185.674 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 185.674 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -32062,6 +34391,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 268.986 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 268.986 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9c14ba06-a171-40c8-845f-922167db9862")
 		)
@@ -32185,6 +34536,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 237.49 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 237.49 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "296833df-7536-4294-b95f-94116904443b")
 		)
@@ -32255,6 +34628,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 147.066 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 147.066 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 147.066 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32347,6 +34742,28 @@
 		)
 		(property "LCSC" ""
 			(at 141.732 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 141.732 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 141.732 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32449,6 +34866,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 292.1 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 292.1 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "135cd6b5-dac2-45be-9ade-47f73e5c941f")
 		)
@@ -32518,6 +34957,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 174.498 90.678 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 174.498 90.678 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 174.498 90.678 0)
 			(hide yes)
 			(show_name no)
@@ -32624,6 +35085,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 261.366 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 261.366 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c9a805e1-fde8-489e-b096-c058e2735782")
 		)
@@ -32717,6 +35200,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 307.086 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 307.086 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "45e78435-cb0a-469e-9fd9-cd3a1ca7cd31")
 		)
@@ -32788,6 +35293,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 357.124 131.572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 357.124 131.572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 357.124 131.572 0)
 			(hide yes)
 			(show_name no)
@@ -32881,6 +35408,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 128.016 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 128.016 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 128.016 162.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33040,6 +35589,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 157.226 60.706 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 157.226 60.706 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 157.226 60.706 0)
 			(hide yes)
 			(show_name no)
@@ -33222,6 +35793,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 314.706 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 314.706 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "76c45c13-fc95-4a45-ae34-e19728a8cafa")
 		)
@@ -33306,6 +35899,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 314.706 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 314.706 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 314.706 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33408,6 +36023,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 314.706 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 314.706 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fa14dbd9-ef69-4133-b31a-18557d657687")
 		)
@@ -33498,6 +36135,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 357.124 126.492 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 357.124 126.492 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d93c05d7-8fe2-4f0c-88fd-52a7bd65cd4f")
 		)
@@ -33570,6 +36229,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 81.28 132.588 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 81.28 132.588 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 81.28 132.588 0)
 			(hide yes)
 			(show_name no)
@@ -33673,6 +36354,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 284.226 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 284.226 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "77dc7c00-7d6c-4cba-9b16-3de6a8aebf3f")
 		)
@@ -33756,6 +36459,28 @@
 		)
 		(property "LCSC" ""
 			(at 181.102 116.332 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 181.102 116.332 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 181.102 116.332 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33936,6 +36661,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 299.466 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 299.466 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "17b9f28d-c179-4b63-bc57-6c990bde88a4")
 		)
@@ -34093,6 +36840,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 204.724 62.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 204.724 62.738 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e809e0c7-2877-45fd-93d5-256cbd893eb4")
 		)
@@ -34167,6 +36936,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 157.988 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 157.988 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 157.988 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34336,6 +37127,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 203.962 28.448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 203.962 28.448 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f25dc0c-f5f3-4c0e-a49c-2e72ed195a65")
 		)
@@ -34417,6 +37230,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 307.086 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 307.086 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 307.086 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34540,6 +37375,28 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 218.44 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 218.44 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 218.44 171.45 90)
 			(hide yes)
 			(show_name no)
@@ -34688,6 +37545,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 314.706 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 314.706 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "134ec107-59e2-4b14-ab9e-98fd6ef21ffb")
 		)
@@ -34760,6 +37639,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 176.276 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 176.276 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 176.276 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -34863,6 +37764,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 191.262 129.032 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 191.262 129.032 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "b3b9364b-ea3f-40c0-937f-2752e40ddc8b")
 		)
@@ -34950,6 +37873,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 261.366 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 261.366 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 261.366 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35116,6 +38061,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 159.258 90.932 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 159.258 90.932 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab431e8c-a072-4ef5-870d-409b453f7c04")
 		)
@@ -35203,6 +38170,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 276.86 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 276.86 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 276.86 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35305,6 +38294,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 307.086 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 307.086 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "930f2a22-2cba-47a2-8cf7-4679e8be6c32")
 		)
@@ -35389,6 +38400,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 307.34 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 307.34 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 307.34 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35646,6 +38679,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 314.706 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 314.706 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e50d2710-7d04-41c8-8491-8301b98ef240")
 		)
@@ -35717,6 +38772,28 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 141.478 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 141.478 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 141.478 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35807,6 +38884,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 41.656 173.228 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 41.656 173.228 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64017659-c76b-4973-bc79-676bad4a8295")
 		)
@@ -35879,6 +38978,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 93.218 132.588 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 93.218 132.588 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 93.218 132.588 0)
 			(hide yes)
 			(show_name no)
@@ -36048,6 +39169,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 54.356 168.148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 54.356 168.148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "3a93cc73-3679-4cf0-96e4-d0c68abac23f")
 		)
@@ -36129,6 +39272,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated"
+			(at 83.312 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 83.312 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 83.312 77.216 0)
 			(hide yes)
 			(show_name no)
@@ -36242,6 +39407,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 340.614 54.864 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 340.614 54.864 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "53fe4d79-7057-43e8-a160-705b17a722b8")
 		)
@@ -36326,6 +39513,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 276.606 40.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 276.606 40.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 276.606 40.894 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36450,6 +39659,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 170.688 186.436 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 170.688 186.436 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d943ed3d-0e25-4b9f-b4fb-1f1cb321c8c6")
 		)
@@ -36501,7 +39732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 41.3512 166.878 0)
 			(hide yes)
 			(show_name no)
@@ -36524,6 +39755,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 40.386 163.068 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 40.386 163.068 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 40.386 163.068 0)
 			(hide yes)
 			(show_name no)
@@ -36606,6 +39859,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 381.762 75.946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 381.762 75.946 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 381.762 75.946 0)
 			(hide yes)
 			(show_name no)
@@ -36709,6 +39984,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 276.606 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 276.606 70.866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "81c0d51b-d4dd-4964-8a66-e689d02e44f4")
 		)
@@ -36782,6 +40079,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 25.146 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 25.146 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 25.146 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -36941,6 +40260,28 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 262.89 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 262.89 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 262.89 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -37118,6 +40459,28 @@
 				)
 			)
 		)
+		(property "Field5" ""
+			(at 191.262 116.332 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 191.262 116.332 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70eebbf7-2759-47e8-a046-d3770ea63b14")
 		)
@@ -37193,6 +40556,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 184.404 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 184.404 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 184.404 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -37287,6 +40672,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 291.846 30.226 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 291.846 30.226 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
+			(at 291.846 30.226 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
