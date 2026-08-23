@@ -9838,6 +9838,12 @@
 		(uuid "71950585-f8d3-4401-ad77-b000a5c9e4e6")
 	)
 	(junction
+		(at 362.204 168.402)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73f2524b-bd2d-4892-be7b-c6f737c1d446")
+	)
+	(junction
 		(at 211.328 60.706)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9994,6 +10000,12 @@
 		(uuid "9f0fa925-440e-4c65-ba71-ec1d0e520bde")
 	)
 	(junction
+		(at 359.664 60.452)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f3b8cc9-5d07-4eab-9f02-be7584d63d17")
+	)
+	(junction
 		(at 152.654 31.242)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10088,12 +10100,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acd3228e-6f21-4774-8980-18d5b4cc4318")
-	)
-	(junction
-		(at 362.204 168.402)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b24214c6-6d47-4070-a57a-a26b442f0658")
 	)
 	(junction
 		(at 315.976 93.726)
@@ -10268,12 +10274,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6f56b72-1cac-418b-a3f4-1283d6f0f97d")
-	)
-	(junction
-		(at 359.664 60.452)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8398ded-ff7e-4c37-b5f4-7f32438fc353")
 	)
 	(junction
 		(at 224.536 53.086)
@@ -11051,6 +11051,16 @@
 	)
 	(wire
 		(pts
+			(xy 362.204 168.402) (xy 359.918 168.402)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1729b787-ad9f-4eca-8447-0acd04b9a404")
+	)
+	(wire
+		(pts
 			(xy 216.154 123.698) (xy 218.186 123.698)
 		)
 		(stroke
@@ -11061,7 +11071,7 @@
 	)
 	(wire
 		(pts
-			(xy 359.664 60.452) (xy 359.664 70.104)
+			(xy 359.664 54.864) (xy 359.664 60.452)
 		)
 		(stroke
 			(width 0)
@@ -13481,7 +13491,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.728 168.402) (xy 359.918 168.402)
+			(xy 363.728 168.402) (xy 362.204 168.402)
 		)
 		(stroke
 			(width 0)
@@ -13901,6 +13911,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.664 60.452) (xy 359.664 70.104)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb1b8db-b61a-40c8-a1fe-1ec4b017f48d")
+	)
+	(wire
+		(pts
 			(xy 247.396 73.406) (xy 247.396 83.566)
 		)
 		(stroke
@@ -14258,16 +14278,6 @@
 			(type default)
 		)
 		(uuid "cdbfc164-5b20-4f55-be2c-e0b74611190f")
-	)
-	(wire
-		(pts
-			(xy 359.664 54.864) (xy 359.664 60.452)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cefcca45-0bbc-4e1b-9a2b-fdf3363635a0")
 	)
 	(wire
 		(pts
@@ -19194,7 +19204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 365.506 144.018 0)
 			(hide yes)
 			(show_name no)
@@ -19238,7 +19248,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 368.046 60.452 270)
+		(at 362.204 60.452 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -19249,7 +19259,7 @@
 		(dnp no)
 		(uuid "324fb135-866f-4978-ad07-7e6d94cb2771")
 		(property "Reference" "R25"
-			(at 367.03 56.134 0)
+			(at 361.188 56.134 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19260,7 +19270,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 369.062 55.118 0)
+			(at 363.22 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19271,7 +19281,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 368.046 60.452 0)
+			(at 362.204 60.452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19282,7 +19292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.046 60.452 0)
+			(at 362.204 60.452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19293,7 +19303,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 368.046 60.452 0)
+			(at 362.204 60.452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21231,7 +21241,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 362.204 176.784 180)
+		(at 362.204 170.942 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21241,7 +21251,7 @@
 		(dnp no)
 		(uuid "51c82649-e15a-44ff-b335-fc14d4a98843")
 		(property "Reference" "R24"
-			(at 363.474 175.26 0)
+			(at 363.474 169.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21252,7 +21262,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 363.22 177.292 0)
+			(at 363.22 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21263,7 +21273,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 362.204 176.784 0)
+			(at 362.204 170.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21274,7 +21284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 362.204 176.784 0)
+			(at 362.204 170.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21285,7 +21295,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 362.204 176.784 0)
+			(at 362.204 170.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21429,7 +21439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 364.744 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -28795,7 +28805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 343.662 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -29327,7 +29337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 			(at 344.17 143.764 0)
 			(hide yes)
 			(show_name no)
@@ -31064,7 +31074,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 362.204 60.452 0)
+		(at 368.046 60.452 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -31075,7 +31085,7 @@
 		(dnp no)
 		(uuid "ca944959-5610-4b7d-bae1-c3754c8b72a9")
 		(property "Reference" "D75"
-			(at 361.188 57.912 90)
+			(at 367.03 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31085,7 +31095,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 363.474 57.15 90)
+			(at 369.316 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31095,7 +31105,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 362.204 60.452 90)
+			(at 368.046 60.452 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31106,7 +31116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 362.204 60.452 90)
+			(at 368.046 60.452 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31117,7 +31127,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 362.204 60.452 0)
+			(at 368.046 60.452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31128,7 +31138,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 362.204 60.452 0)
+			(at 368.046 60.452 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34035,7 +34045,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 362.204 170.942 90)
+		(at 362.204 176.784 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34045,7 +34055,7 @@
 		(dnp no)
 		(uuid "f884d756-9cf9-4683-b5cd-f6e81f9fa639")
 		(property "Reference" "D74"
-			(at 359.664 169.926 90)
+			(at 359.664 175.768 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34055,7 +34065,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 358.902 172.212 90)
+			(at 358.902 178.054 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34065,7 +34075,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 362.204 170.942 90)
+			(at 362.204 176.784 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34076,7 +34086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 362.204 170.942 90)
+			(at 362.204 176.784 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34087,7 +34097,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 362.204 170.942 0)
+			(at 362.204 176.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34098,7 +34108,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 362.204 170.942 0)
+			(at 362.204 176.784 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
