@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.32,
-          "height": 1.98,
-          "width": 1.98
+          "drill": 0.0,
+          "height": 1.2,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -53,7 +53,7 @@
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
-          "corner_smoothing": 2,
+          "corner_smoothing": 1,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -158,7 +158,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -211,6 +211,7 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.25,
         0.3,
         0.4,
@@ -861,7 +862,7 @@
         "uuid": "294e2e5f-a7b9-4d81-904c-b55cda9b730c"
       }
     ],
-    "used_designators": "H1-6,SW1-5,#FLG1-8,L1-3,#PWR1-41,#PWR45,#PWR47-48,JP1,JP3,R1-27,R50-51,D1-77,C1-27,Q1-7,F1-3,U1-7,J1-20",
+    "used_designators": "H1-6,SW1-5,#FLG1-7,L1-3,#PWR1-41,#PWR45,#PWR47-48,JP1,JP3,R1-27,R50-51,D1-77,C1-27,Q1-7,F1-2,U1-7,J1-19",
     "variants": []
   },
   "sheets": [
