@@ -550,7 +550,7 @@
       "gencad": "../../3d_models/lsa_model/lsa-2025.cad",
       "idf": "",
       "netlist": "",
-      "plot": "gerber_lsa",
+      "plot": "LSA-Wall-E-2027",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../../3d_models/lsa_model/lsa-2025.step",
