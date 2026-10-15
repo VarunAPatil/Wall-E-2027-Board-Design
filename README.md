@@ -1,85 +1,112 @@
-# Wall-E-2027-Board-Design
+# Wall-E SRA Board · 2026–27
 
-![Image 1](assets/3d_render.png)
+**A KiCad hardware platform for the Society of Robotics and Automation (SRA), VJTI.**
 
-![Image 2](assets/pcb.png)
+The SRA board brings the control, sensing, display, power, and motor interfaces for a small mobile robot onto one development board. This repository contains the main SRA board design, its companion Line Sensor Array (LSA), local KiCad libraries, 3D models, and fabrication exports.
 
-<!-- PROJECT LOGO -->
+[![KiCad](https://img.shields.io/badge/EDA-KiCad-314CB0?logo=kicad&logoColor=white)](https://www.kicad.org/)
+[![Project](https://img.shields.io/badge/Project-Wall--E%20%7C%20MARIO-1f6feb)](https://github.com/SRA-VJTI/Wall-E)
+[![Organization](https://img.shields.io/badge/Organization-SRA%20VJTI-7b2cbf)](https://github.com/SRA-VJTI)
 
-[![Stargazers][stars-shield]][stars-url]
-[![Forks][forks-shield]][forks-url]
-[![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
+---
 
-# SRA Board
+## At a glance
 
-The SRA board is a development board based on ESP32 with on-board peripherals like a programmable LED matrix, switches, sensor ports for Line Sensor Array and MPU-6050, protection circuit for over-current and reverse voltage, and motor drivers.
+| Area | Design |
+| --- | --- |
+| Main controller | ESP32-S3-WROOM-1 module |
+| Input and power | 12 V input, TPS54302 step-down stage, 5 V rail, AMS1117-3.3 V regulator |
+| Motor control | TB6612FNG dual H-bridge and two motor outputs |
+| Robot sensing | 10-pin FFC connection for the LSA; MPU-6050 connection |
+| User interface | OLED connection, MAX7219-driven 8×8 LED matrix, buttons and status signals |
+| Host connection | USB-C USB 2.0 interface for development and programming |
+| Design tools | KiCad schematic, PCB, project and local symbol/footprint libraries |
 
-## About the Project
+> **Design status:** This repository contains design files and exported fabrication data. Their presence does not by itself confirm electrical validation, manufacturing quality, or tested board behavior. Check the current schematic, PCB, and fabrication outputs before ordering or assembling hardware.
 
-- This development board is used for the [Wall-E](https://github.com/SRA-VJTI/Wall-E) and [MARIO](https://github.com/SRA-VJTI/MARIO) workshops conducted by [SRA](https://github.com/SRA-VJTI).
-- Designed using KiCAD.
+## System overview
 
-## Getting Started with a Development Board
+```mermaid
+flowchart LR
+    P[12 V input] --> PR[Input protection and switching]
+    PR --> B[TPS54302 buck stage]
+    B --> V5[5 V rail]
+    V5 --> L[AMS1117-3.3 V regulator]
+    V5 --> M[TB6612FNG motor driver]
+    L --> C[ESP32-S3]
+    C <--> U[USB-C USB 2.0]
+    C <--> D[MAX7219 LED matrix]
+    C <--> O[OLED]
+    C <--> I[MPU-6050]
+    C <--> A[10-pin FFC to LSA]
+    M --> W[Left and right motor outputs]
+```
 
-In general, every development board has the following basic features:
+The power design separates the motor supply from the regulated logic rails. The schematic shows a TPS54302 switching regulator for the 5 V rail and an AMS1117-3.3 for 3.3 V logic. Resettable PTC fuses are used in the design; the schematic lists 3 A and 1 A parts. These values describe the selected components, not a verified continuous-current rating for a completed board.
 
-- ### Power Supply Unit
-  - Microcontrollers (MCUs) usually run on 3.3V or 5V logic supply voltage while input to a development board is normally 12V for motor and driving/controlling peripheral devices.
-  - So, in order to have a single input source, a _power_ section which inter converts this 12V to standard levels like 5V & 3.3V for MCU and sensors is present.This is achieved using a step-down [buck regulator](https://www.youtube.com/watch?v=m8rK9gU30v4).
+The main controller connects to the motor driver and the board peripherals. The TB6612FNG provides two H-bridge channels for two DC motor outputs. The MAX7219 handles the LED matrix interface, reducing the number of controller signals needed for the display. The OLED and MPU-6050 connect as board peripherals, and the companion LSA connects over the 10-pin FFC interface.
 
-- ### Motor Driver
-  - Motors usually run on 12V and MCU output is generally 5V/3.3V. So, an external motor driver circuitry is required to control motors according to the MCU input.
-  - The SRA board use the [TB6612FNG](./datasheets/TB6612FNG_motor_driver.pdf) Motor Driver, which is a MOS-based H-Bridge motor driver.
+## Board features
 
-- ### Sensor Port
-  - According to the external sensor types, usually development boards have onboard sensor ports where the sensors can be connected easily. [LSA - Line Sensor Array]() and [MPU- Motion Processing Unit]() have on-board connection ports.
-  - Easily available and efficient [JST XH connectors](https://en.wikipedia.org/wiki/JST_connector).
-  - Previous versions used bulky [FRC connectors](<https://www.sunrom.com/c/frc-idc-flat-cable-box-header#:~:text=FRC%20(Flat%20Ribon%20Cable)%20are,from%206%20to%2064%20pins.>)
+### SRA controller board
 
-- ### Protection against [Reverse Voltage](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjc8aaX1c3rAhXXXSsKHXphBgQQFjABegQICxAD&url=https%3A%2F%2Fwww.ti.com%2Flit%2Fpdf%2Fslva139&usg=AOvVaw0Qbub75JJ986MzLv6FYWKE)
-  - The SRA Boards use diodes for reverse voltage protection in the power-line.
-  - 12V Motor line and power regulated line have been separated with [SS34](./datasheets/ss34_3A_schottky_diode.pdf) and [SS54](./datasheets/ss24_2A_schottky_diode.pdf) schottky diodes respectively.
+- **ESP32-S3 control:** Wi-Fi/Bluetooth-capable MCU module and GPIO-based control for the robot and its peripherals.
+- **USB-C interface:** USB 2.0 data connection to the controller for development and programming.
+- **12 V power path:** board input with switching and protection circuitry, followed by regulated 5 V and 3.3 V rails.
+- **Dual motor driver:** TB6612FNG H-bridge with separate control signals and two motor connectors.
+- **Line sensing:** 10-position, 1.0 mm pitch FFC connector to the companion LSA board.
+- **Motion sensing:** connection for an MPU-6050 inertial measurement module.
+- **Display and feedback:** OLED connection and an 8×8 LED matrix driven by a MAX7219.
+- **Controls:** reset/boot buttons and board-level power control signals.
 
-- ### Protection against [Over Current](https://www.baypower.com/blog/what-is-overcurrent-protection/#:~:text=Overcurrent%20protection%20is%20the%20method,of%20a%20piece%20of%20equipment.)
-  - This is done by PTC Resettable Fuses.
-- ### Programmable Switches and LEDs
-  - Every development board should have some programmable switches and LEDs for testing, control and debugging purposes.
-  - The SRA Board features a 8x8 LED matrix (64 LEDs total) controlled via MAX7219, which provides enhanced debugging capabilities and expressive visual feedback while reducing GPIO usage compared to discrete LEDs.
+### Line Sensor Array (LSA)
 
-- ### Power Switch
-  - All versions have a power switch for the motor driver, using which power supply to the motor driver can be toggled. Similarly, there was a switch for the ESP32 MCU.
+The `lsa/` directory contains a separate KiCad project for the line sensor board. It connects to the SRA board through a 10-pin FFC cable. Its schematic includes five analog sensor outputs labelled `LSA_A0` through `LSA_A4`; use the schematic and board pin labels as the wiring reference when integrating it.
 
-- ### **Compatiblity of SRA Board with Battery [3- 3.3V 2500mAh Batteries](https://robu.in/product/bak-nmc-18650-2500mah-8c-lithium-ion-battery/?gad_source=1&gclid=Cj0KCQjw6PGxBhCVARIsAIumnWb20iyJUEXE8V6eAfSambP35PfBsSFKje-ALjyNniqGYCW_kz3IbcQaAoeGEALw_wcB)**
-  - The SRA Board is compatible with **3-cell (3S) Lithium-ion battery packs** which use an external **[BMS (Battery Management System)](https://robu.in/product/3s-10a-12v-18650-lithium-battery-charger-board-protection-module/)**.
-  - The BMS helps maintain safe operating voltages and disconnects the battery when the voltage drops below a safe limit.
-  - It also ensures balanced charging and discharging of the three cells, improving the overall health and lifetime of the battery pack.
+## Repository map
 
-- ### **LD33 (3.3V) to [AMS1117](http://www.advanced-monolithic.com/pdf/ams1117.pdf)**:
-  - Older editions used the **LD33 IC** to step down from 5V to 3.3V.
-  - This was later replaced with the **AMS1117-3.3 LDO**, which is more compact and widely used for stable 3.3V regulation.
-  - (_AMS1117 is also used on the ESP32-DevKitC V4 module._)
+| Path | Contents |
+| --- | --- |
+| `sra_board.kicad_pro` | Main SRA KiCad project settings |
+| `sra_board.kicad_sch` | Main board schematic |
+| `sra_board.kicad_pcb` | Main board PCB layout |
+| `sra_board.step` | 3D STEP export of the main board assembly |
+| `lsa/lsa.kicad_pro` | LSA KiCad project settings |
+| `lsa/lsa.kicad_sch` | LSA schematic |
+| `lsa/lsa.kicad_pcb` | LSA PCB layout |
+| `3D/` | Component STEP models used by the designs |
+| `MAX7219/` | MAX7219 symbol, footprints, and supporting files |
+| `footprints.pretty/` | Project-specific KiCad footprints |
+| `fp-lib-table`, `sym-lib-table` | Project-local footprint and symbol library tables |
+| `sra-board-final-iteration-2027/` | Gerber, drill, and job files for the SRA board |
+| `lsa/LSA-Wall-E-2027/` | Gerber, drill, and job files for the LSA board |
+| `assets/` | Reference board images from an earlier board snapshot; compare with the current PCB before relying on them |
 
-- ### **Reverse voltage protection: Diodes to P-MOSFET**
-  - Diodes placed in series with the power line introduce voltage drop and power loss compared to a **P-MOSFET based protection circuit**.
-  - Due to the higher current requirements of the motors, managing diode size and current rating became difficult.
-  - Therefore, earlier versions used a **P-MOSFET based reverse polarity protection circuit**, which is more efficient and can handle higher currents.
+## Open and work with the designs
 
-## Contributors
+1. Install KiCad and clone this repository with Git, or download the repository as a ZIP archive.
+2. Open `sra_board.kicad_pro` in KiCad to work on the SRA board. Open `lsa/lsa.kicad_pro` for the LSA.
+3. Keep the project files, library tables, local footprints, symbols, and 3D models together so KiCad can resolve the project-specific references.
+4. Make schematic changes first, then update the PCB from the schematic in KiCad and review footprints, net assignments, clearances, and board geometry.
+5. Re-export fabrication files from the reviewed PCB if it has changed. The checked-in Gerbers are snapshots and may not match later edits.
 
-- [Varun Patil](https://github.com/VarunAPatil): _Designer_
-- [Omkar Nanajkar](https://github.com/nomkar24): _Designer_
-<!-- ACKNOWLEDGEMENTS AND REFERENCES -->
+### Fabrication files
+
+The two export directories contain copper, solder-mask, solder-paste, silkscreen, outline, drill, and Gerber job files. Use the matching directory for the board being fabricated. Before sending files to a manufacturer, confirm that the exports correspond to the intended revision and inspect the layer set, board outline, drill map, and fabrication notes in a Gerber viewer.
+
+The `.step` files are for mechanical and enclosure review. They are not substitutes for the KiCad source files or fabrication exports.
+
+## Power and battery notes
+
+The board is designed around a 12 V input for the motor and board power path. If using a three-cell lithium-ion battery pack, use a correctly rated external 3S battery-management system (BMS) and charger. The BMS is not the board’s battery charger. Confirm the voltage range, polarity, connector pinout, fuse suitability, motor current, regulator thermal limits, and wiring before powering a completed assembly.
+
+## Project context and contributors
+
+The SRA board is used in SRA VJTI robotics work, including the [Wall-E](https://github.com/SRA-VJTI/Wall-E) and [MARIO](https://github.com/SRA-VJTI/MARIO) projects. The board is designed in KiCad.
+
+- [Varun Patil](https://github.com/VarunAPatil) — Designer
+- [Omkar Nanajkar](https://github.com/nomkar24) — Designer
 
 ## License
 
-- Distributed under the [MIT License](https://github.com/SRA-VJTI/sraboard-hardware-design/blob/master/LICENSE).
-
-[forks-shield]: https://img.shields.io/github/forks/SRA-VJTI/sra-board-hardware-design
-[forks-url]: https://github.com/SRA-VJTI/sra-board-hardware-design/network/members
-[stars-shield]: https://img.shields.io/github/stars/SRA-VJTI/sra-board-hardware-design
-[stars-url]: https://github.com/SRA-VJTI/sra-board-hardware-design/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SRA-VJTI/sra-board-hardware-design
-[issues-url]: https://github.com/SRA-VJTI/sra-board-hardware-design/issues
-[license-shield]: https://img.shields.io/github/license/SRA-VJTI/sra-board-hardware-design
-[license-url]: https://github.com/SRA-VJTI/sra-board-hardware-design/blob/master/LICENSE
+There is no `LICENSE` file in this repository at present. Check with the project maintainers before reusing or redistributing the hardware design.
